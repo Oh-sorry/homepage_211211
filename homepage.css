@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color :white;
+}
+body {
+    height: 100vh;
+    background-image: url('https://ac2-p.namu.la/20210403/664a768ecabba9abef0adb6d78c25ee6a4bace7c7978ad405dc33e5552bf9909.jpg');
+    /* background-image: url('https://cdn.clien.net/web/api/file/F01/10211718/3a4de0a53ee11a.jpeg?w=780&h=30000'); */
+    background-repeat : repeat-y;
+    background-size : cover;
+  }
+center {
+    font-size: 320px;
+}
+#wrap {
+    min-height: 40vh;
+    position: relative;
+    width: 100%;
+}
+section {
+    padding-bottom: 110px;
+    text-align: center;
+}
+section a {
+    color: white;
+    font-size: 30px;
+    text-decoration-line: none;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    height: 110px;
+    bottom: 0px;
+    position: absolute;
+    color: aliceblue;
+}
+footer a {
+    display: inline-block;
+    margin : 0 20px 10px 20px;
+    font-size: 17px;
+    color: aliceblue;
+    text-decoration-line: none;
+}
+footer a:visited {
+    color: aliceblue;
+}
